@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <ContactSection>
       <h2>Contact Me</h2>
-      <p><i className="fas fa-envelope"></i> Email: yourname@example.com</p>
-      <p><i className="fas fa-phone"></i> Phone: (123) 456-7890</p>
+      <p><i className="fas fa-envelope"></i> Email: bswapnalee1992@gmail.com</p>
+      <p><i className="fas fa-phone"></i> Phone: +91 9284682453</p>
     </ContactSection>
   );
 };

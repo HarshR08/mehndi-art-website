@@ -6,9 +6,9 @@ const Gallery = () => {
     <GallerySection>
       <h2>Gallery</h2>
       <div className="gallery">
-        <img src="mehndi1.jpg" alt="Mehndi Art 1" />
-        <img src="mehndi2.jpg" alt="Mehndi Art 2" />
-        <img src="mehndi3.jpg" alt="Mehndi Art 3" />
+        <img src={process.env.PUBLIC_URL + '/mehndi1.jpg'} alt="Mehndi Art 1" />
+        <img src={process.env.PUBLIC_URL + '/mehndi2.jpg'} alt="Mehndi Art 2" />
+        <img src={process.env.PUBLIC_URL + '/mehndi3.jpg'} alt="Mehndi Art 3" />
         {/* Add more images as needed */}
       </div>
     </GallerySection>

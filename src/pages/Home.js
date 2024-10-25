@@ -6,15 +6,15 @@ const Home = () => {
     <HomeSection>
       <Content>
         <h1>Welcome to Deetya's Mehndi Art</h1>
-        <p>We are the best Mehandi Art service since 1990.
-Welcome to the innovative world of Yogesh Mehandi Artist & design, combining fusion designs from Arabic, Indian to Moghul. Mehndi Creations offers a highly personalised and bespoke service to suit your individual needs and budgets. Mehndi Creations are a new generation of artists, using unique techniques together with natural ingredients for the mehndi, to add depth to its colour for your special occasions to last for days to come. We at Mehndi Creations, are available for all occasions such as weddings, mehndi parties, hen parties, fashion shows & corporate events to name a few.</p>
+        <p>We are the best Mehndi Art service since 1990.
+Welcome to the innovative world of Deetya's Mehndi Artist & design, combining fusion designs from Arabic, Indian to Moghul. Mehndi Creations offers a highly personalised and bespoke service to suit your individual needs and budgets. Mehndi Creations are a new generation of artists, using unique techniques together with natural ingredients for the mehndi, to add depth to its colour for your special occasions to last for days to come. We at Mehndi Creations, are available for all occasions such as weddings, mehndi parties, hen parties, fashion shows & corporate events to name a few.</p>
       </Content>
     </HomeSection>
   );
 };
 
 const HomeSection = styled.section`
-  background: url('mehndi-background.png') no-repeat center center/cover;
+  background: url(${process.env.PUBLIC_URL}/mehndi-background.png) no-repeat center center/cover;
   height: 100vh;
   display: flex;
   justify-content: center;

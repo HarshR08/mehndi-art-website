@@ -5,7 +5,8 @@ import styled from 'styled-components';
 const Navbar = () => {
   return (
     <Nav>
-      <h1>My Mehndi Art</h1>
+      <Logo src={process.env.PUBLIC_URL + '/logo.png'} alt="Logo" />
+      <HeaderText>Deetya's Mehndi Art</HeaderText>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/gallery">Gallery</Link></li>
@@ -22,10 +23,6 @@ const Nav = styled.nav`
   background-color: #333;
   color: white;
   padding: 1rem 2rem;
-
-  h1 {
-    margin: 0;
-  }
 
   ul {
     list-style: none;
@@ -47,6 +44,15 @@ const Nav = styled.nav`
       }
     }
   }
+`;
+
+const Logo = styled.img`
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+`;
+
+const HeaderText = styled.h1`
+  margin: 0;
 `;
 
 export default Navbar;
